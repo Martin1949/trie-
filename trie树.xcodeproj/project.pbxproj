@@ -15,6 +15,9 @@
 		2E17073022903CE60059F065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E17072F22903CE60059F065 /* main.m */; };
 		2E17073A22903CE60059F065 /* trie_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E17073922903CE60059F065 /* trie_Tests.m */; };
 		2E17074522903CE60059F065 /* trie_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E17074422903CE60059F065 /* trie_UITests.m */; };
+		2E17075322903D060059F065 /* lessonName.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E17075222903D060059F065 /* lessonName.plist */; };
+		2E17075C22903D980059F065 /* searchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E17075B22903D980059F065 /* searchManager.m */; };
+		2E17075F22903ECD0059F065 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E17075E22903ECD0059F065 /* Node.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		2E17074022903CE60059F065 /* trie树UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trie树UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E17074422903CE60059F065 /* trie_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trie_UITests.m; sourceTree = "<group>"; };
 		2E17074622903CE60059F065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E17075222903D060059F065 /* lessonName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lessonName.plist; sourceTree = "<group>"; };
+		2E17075A22903D980059F065 /* searchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchManager.h; sourceTree = "<group>"; };
+		2E17075B22903D980059F065 /* searchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = searchManager.m; sourceTree = "<group>"; };
+		2E17075D22903ECD0059F065 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		2E17075E22903ECD0059F065 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,11 @@
 				2E17072B22903CE60059F065 /* LaunchScreen.storyboard */,
 				2E17072E22903CE60059F065 /* Info.plist */,
 				2E17072F22903CE60059F065 /* main.m */,
+				2E17075222903D060059F065 /* lessonName.plist */,
+				2E17075A22903D980059F065 /* searchManager.h */,
+				2E17075B22903D980059F065 /* searchManager.m */,
+				2E17075D22903ECD0059F065 /* Node.h */,
+				2E17075E22903ECD0059F065 /* Node.m */,
 			);
 			path = "trie树";
 			sourceTree = "<group>";
@@ -238,6 +251,7 @@
 				2E17072D22903CE60059F065 /* LaunchScreen.storyboard in Resources */,
 				2E17072A22903CE60059F065 /* Assets.xcassets in Resources */,
 				2E17072822903CE40059F065 /* Main.storyboard in Resources */,
+				2E17075322903D060059F065 /* lessonName.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E17075F22903ECD0059F065 /* Node.m in Sources */,
 				2E17072522903CE40059F065 /* ViewController.m in Sources */,
+				2E17075C22903D980059F065 /* searchManager.m in Sources */,
 				2E17073022903CE60059F065 /* main.m in Sources */,
 				2E17072222903CE40059F065 /* AppDelegate.m in Sources */,
 			);
